@@ -30,6 +30,10 @@ body {
   padding: 0;
   margin: 0; }
 
+h1, h2, h3, h4 {
+  margin: 0;
+  padding: 0; }
+
 ul, ol {
   padding: 0;
   margin: 0; }
@@ -127,6 +131,128 @@ ul, ol {
     transition: opacity 150ms 30ms; }
   .page-nav.opened .page-nav__link {
     opacity: 1; } }
+
+.chapter-vav {
+  background: #f6f6f6; }
+
+.chapter-nav-content {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  width: 970px;
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 100px; }
+
+.chapter-nav-item {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-self: center; }
+
+.chapter-nav-item_link {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: black; }
+
+.section-iphone-x {
+  background: #f6f6f6;
+  max-width: 1980px;
+  margin-top: 20px;
+  padding-bottom: 64px; }
+
+.header-for-book {
+  display: block;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 10px;
+  font-weight: 900;
+  font-size: 55px; }
+
+.sub-header-for-book {
+  display: block;
+  text-align: center;
+  font-size: 41px;
+  padding-bottom: 10px; }
+
+.book {
+  color: #888; }
+
+.wrapper-for-book {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 350px;
+  margin: 0 auto;
+  padding-bottom: 10px; }
+
+.more-information {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.3125rem;
+  color: #0070c9;
+  position: relative; }
+
+/* Here is all large pictures */
+/*|*/
+.iphone_x_large_2x {
+  width: 980px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 64px; }
+
+.iphone_8_large_2x {
+  width: 600px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 64px; }
+
+.compare-img {
+  width: 587px;
+  display: block;
+  flex-basis: 49.9999%;
+  float: left; }
+
+/*|*/
+/* Here is all large pictures */
+.section-iphone-8 {
+  background-color: #f9f0eb;
+  margin-top: 20px;
+  max-width: 1980px; }
+
+.section-compare {
+  margin-top: 32px;
+  background-color: #FAFAFA; }
+
+.more-information__comparing {
+  display: flex;
+  text-decoration: none;
+  font-size: 1.3125rem;
+  color: #0070c9;
+  position: relative; }
+
+.more-information:after, .more-information__comparing:after {
+  content: '>';
+  color: #0070c9;
+  font-size: 1.3125rem; }
+
+.section-compare:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.section-compare h2 {
+  font-size: 3.5rem; }
+
+.comparing-info {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding-left: 80px;
+  padding-top: 150px;
+  position: relative; }
 
 
 /*# sourceMappingURL=lesson_6.css.map*/
