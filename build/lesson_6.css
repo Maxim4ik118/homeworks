@@ -156,17 +156,11 @@ ul, ol {
   text-decoration: none;
   color: black; }
 
-.iphone_x_large_2x {
-  width: 980px;
-  margin: 0 auto;
-  display: block;
-  margin-top: 64px;
-  padding-bottom: 64px; }
-
 .section-iphone-x {
   background: #f6f6f6;
   max-width: 1980px;
-  margin-top: 20px; }
+  margin-top: 20px;
+  padding-bottom: 64px; }
 
 .header-for-book {
   display: block;
@@ -197,7 +191,68 @@ ul, ol {
   display: block;
   text-align: center;
   text-decoration: none;
+  font-size: 1.3125rem;
+  color: #0070c9;
+  position: relative; }
+
+/* Here is all large pictures */
+/*|*/
+.iphone_x_large_2x {
+  width: 980px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 64px; }
+
+.iphone_8_large_2x {
+  width: 600px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 64px; }
+
+.compare-img {
+  width: 587px;
+  display: block;
+  flex-basis: 49.9999%;
+  float: left; }
+
+/*|*/
+/* Here is all large pictures */
+.section-iphone-8 {
+  background-color: #f9f0eb;
+  margin-top: 20px;
+  max-width: 1980px; }
+
+.section-compare {
+  margin-top: 32px;
+  background-color: #FAFAFA; }
+
+.more-information__comparing {
+  display: flex;
+  text-decoration: none;
+  font-size: 1.3125rem;
+  color: #0070c9;
+  position: relative; }
+
+.more-information:after, .more-information__comparing:after {
+  content: '>';
+  color: #0070c9;
   font-size: 1.3125rem; }
+
+.section-compare:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.section-compare h2 {
+  font-size: 3.5rem; }
+
+.comparing-info {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding-left: 80px;
+  padding-top: 150px;
+  position: relative; }
 
 
 /*# sourceMappingURL=lesson_6.css.map*/
