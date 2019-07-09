@@ -15,6 +15,12 @@ body {
     margin: 0;
 }
 
+h1,h2,h3,h4 {
+    margin: 0;
+    padding: 0;
+}
+
+
 ul, ol {
     padding: 0;
     margin: 0;
@@ -132,4 +138,87 @@ ul, ol {
     .page-nav.opened .page-nav__link  {
         opacity: 1;
     }
+
 }
+
+.chapter-vav {
+   background: #f6f6f6;
+}
+
+.chapter-nav-content {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width: 970px;
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 100px;
+}
+
+.chapter-nav-item {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.chapter-nav-item_link {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+}
+
+.iphone_x_large_2x {
+    width: 980px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 64px;
+    padding-bottom: 64px;
+}
+
+.section-iphone-x {
+    background: #f6f6f6;
+    max-width: 1980px;
+    margin-top: 20px;
+
+}
+
+.iphone-x_content {
+
+}
+
+.header-for-book {
+    display: block;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 10px;
+    font-weight: 900;
+    font-size: 55px;
+}
+
+.sub-header-for-book {
+    display: block;
+    text-align: center;
+    font-size: 41px;
+    padding-bottom: 10px;
+}
+
+.book {
+    color: #888;
+}
+.wrapper-for-book {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 350px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+.more-information {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.3125rem;
+}
+
