@@ -201,8 +201,15 @@ ul, ol {
 .compare-img {
     width: 587px;
     display: block;
-    flex-basis: 49.9999%;
-    float: left;
+    height: 449px;
+    margin-top: 32px;
+    margin-left: 30px;
+}
+
+.ios-large-img {
+    width: 828px;
+    height: 527px;
+    display: flex;
 }
             /*|*/
 /* Here is all large pictures */
@@ -212,8 +219,12 @@ ul, ol {
     max-width: 1980px;
 }
 .section-compare {
-    margin-top: 32px;
     background-color: #FAFAFA;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 1370px;
+    margin: 20px auto;
 }
 .more-information__comparing {
     display: flex;
@@ -227,11 +238,7 @@ ul, ol {
     color: #0070c9;
     font-size: 1.3125rem;
 }
-.section-compare:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+
 .section-compare h2 {
     font-size: 3.5rem;
 }
@@ -240,7 +247,83 @@ ul, ol {
     display: flex;
     flex-direction: column;
     text-align: left;
-    padding-left: 80px;
-    padding-top: 150px;
-    position: relative;
+    margin-top: 150px;
+}
+
+.section-big-step {
+    background-color: #FAFAFA;
+    width: 1370px;
+    display: flex;
+    margin: 20px auto;
+    flex-direction: row;
+    height: 700px;
+    align-items: center;
+}
+.big-step_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: 50%;
+    width: 675px;
+}
+
+.header-for-big-step {
+    display: block;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.sub-header-for-big-step {
+    display: block;
+    text-align: center;
+    font-size: 1.3125rem;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding: 0 40px;
+    font-weight: 100;
+}
+
+.wrapper-for-book_2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 350px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+}
+.airpods_accessories {
+    display: flex;
+    flex-direction: row;
+    width: 1370px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.airpods-container {
+    padding-top: 60px;
+    line-height: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 670px;
+    height: 550px;
+    background-image: url("../../assets/images/lesson_6/airpods_large_2x.jpg");
+}
+.accessories-container {
+    padding-top: 60px;
+    line-height: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 670px;
+    height: 550px;
+    background-image: url("../../assets/images/lesson_6/accessories_large_2x.jpg");
+}
+.header-for-acs {
+    display: block;
+    text-align: center;
+    font-size: 1.6875rem;
+}
+.sub-header-for-acs {
+    display: block;
+    font-size: 2.5rem;
+    text-align: center;
 }
