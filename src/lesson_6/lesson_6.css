@@ -233,7 +233,7 @@ ul, ol {
     color: #0070c9;
     position: relative;
 }
-.more-information:after, .more-information__comparing:after {
+.more-information:after, .more-information__comparing:after, .more-information__comparing_2:after {
     content: '>';
     color: #0070c9;
     font-size: 1.3125rem;
@@ -307,6 +307,9 @@ ul, ol {
     width: 670px;
     height: 550px;
     background-image: url("../../assets/images/lesson_6/airpods_large_2x.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .accessories-container {
     padding-top: 60px;
@@ -316,6 +319,9 @@ ul, ol {
     width: 670px;
     height: 550px;
     background-image: url("../../assets/images/lesson_6/accessories_large_2x.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .header-for-acs {
     display: block;
@@ -326,4 +332,121 @@ ul, ol {
     display: block;
     font-size: 2.5rem;
     text-align: center;
+}
+
+.section-compare_2 {
+    width: 1370px;
+    background-image: url("../../assets/images/lesson_6/howtoshoot_large_2x.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    display: flex;
+    margin: 20px auto;
+    justify-content: center;
+    align-items: center;
+}
+.comparing-info_2 {
+    display: flex;
+    color: #fff;
+    text-align: center;
+    flex-direction: column;
+    font-size: 3.5rem;
+
+}
+.more-information__comparing_2 {
+    display: flex;
+    text-decoration: none;
+    font-size: 1.3125rem;
+    color: #0070c9;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 12px;
+}
+.safety_paypass {
+    width: 1370px;
+    display: flex;
+    flex-direction: row;
+    margin: 20px auto;
+    justify-content: space-between;
+}
+.paypass-container {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    width: 670px;
+    height: auto;
+    background: #f6f6f6;
+}
+.safety-container {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    width: 670px;
+    height: auto;
+    background: #f6f6f6;
+}
+.header-for-adv {
+    display: block;
+    text-align: center;
+    font-size: 1.6875rem;
+}
+.sub-header-for-adv {
+    display: block;
+    font-size: 2.5rem;
+    text-align: center;
+}
+.paypass-safety_additional {
+    text-align: center;
+    padding: 21px 0;
+    font-size: 1.3125rem;
+    width: 620px;
+    margin: 0 auto;
+}
+.paypass_img {
+    height: 428px;
+    background-image: url("../../assets/images/lesson_6/apple_pay_large_2x.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-top: 42px;
+}
+.safety_img {
+    height: 428px;
+    background-image: url("../../assets/images/lesson_6/icloud_large_2x.jpg");
+    background-size: 650px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 42px;
+}
+footer {
+    background: #f2f2f2;
+    height: 200px;
+}
+.footer-content {
+    width: 1370px;
+    margin: 0 auto;
+}
+.all-rights-reserved {
+    display: block;
+    position: relative;
+    color: #9b9b9b;
+    font-size: 0.9rem;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+.wrapper-for-f_l {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.footer_link {
+    display: flex;
+    color: #555;
+    text-decoration: none;
+    font-size: 1rem;
+    border-right: 1px solid #d6d6d6;
+    margin-right: 16px;
+    padding-right: 16px;
+}
+.footer_link.last_link {
+    border: none;
 }
