@@ -187,13 +187,22 @@ ul, ol {
 /* Here is all large pictures */
             /*|*/
 .iphone_x_large_2x {
+    background-image: url("../../assets/images/lesson_6/iphone_x_large_2x.jpg");
     width: 980px;
+    background-position: center;
+    background-size: cover;
+    height: 200px;
     margin: 0 auto;
     display: block;
     margin-top: 64px;
 }
+
 .iphone_8_large_2x {
+    background-image: url("../../assets/images/lesson_6/iphone_8_large_2x.jpg");
+    background-position: center;
+    background-size: cover;
     width: 600px;
+    height: 487px;
     margin: 0 auto;
     display: block;
     margin-top: 64px;
@@ -419,7 +428,7 @@ ul, ol {
 }
 footer {
     background: #f2f2f2;
-    height: 200px;
+    height: 160px;
 }
 .footer-content {
     width: 1370px;
@@ -449,4 +458,53 @@ footer {
 }
 .footer_link.last_link {
     border: none;
+}
+
+@media screen and (max-width: 1200px) {
+    .iphone_x_large_2x {
+        background-image: url("../../assets/images/lesson_6/iphone_x_medium.jpg");
+        width: 640px;
+        background-position: center;
+        background-size: cover;
+        height: 136px;
+        margin: 0 auto;
+        display: block;
+        margin-top: 64px;
+        }
+    .iphone_8_large_2x {
+        background-image: url("../../assets/images/lesson_6/iphone_8_medium_2x.jpg"); 
+        background-position: center;
+        background-size: cover;
+        width: 498px;
+        height: 399px;
+        margin: 0 auto;
+        display: block;
+        margin-top: 64px;
+        }
+    }
+@media screen and (max-width: 768px) {
+    .iphone_x_large_2x {
+        width: 335px;
+        height: 71px;
+        margin: 0 auto;
+        display: block;
+        margin-top: 64px;
+        background-position: center;
+        background-size: cover;
+    }
+    .iphone-x_content {
+        max-width: 328px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: auto;
+    }
+    .wrapper-for-book {
+        flex-direction: column;
+        text-align: center;
+        padding-right: 24px;
+    }
+    .sub-header-for-book {
+        font-size: 31px;
+    }
 }
