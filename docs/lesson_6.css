@@ -147,11 +147,13 @@ ul, ol {
   display: flex;
   margin: 0 auto;
   justify-content: space-between;
-  align-self: center; }
+  align-self: center;
+  width: 20vh; }
 
 .chapter-nav-item_link {
   display: flex;
   flex-direction: column;
+  text-align: center;
   text-decoration: none;
   color: black; }
 
@@ -448,7 +450,7 @@ footer {
   height: 160px; }
 
 .footer-content {
-  width: 1370px;
+  width: 100%;
   margin: 0 auto; }
 
 .all-rights-reserved {
@@ -476,13 +478,50 @@ footer {
 .footer_link.last_link {
   border: none; }
 
+.wrapper-for-pp_sf {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1370px; }
+
 @media screen and (max-width: 1200px) {
+  .safety_paypass {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%; }
+  .paypass-container {
+    width: 45vh;
+    justify-content: center; }
+  .safety-container {
+    width: 45vh;
+    justify-content: center; }
+  .paypass {
+    display: flex; }
+  .paypass_img {
+    background-position: center;
+    background-size: cover;
+    width: 383px;
+    height: 235px; }
+  .safety_img {
+    background-position: center;
+    background-size: cover;
+    width: 378px;
+    height: 204px; }
+  .sub-header-for-adv {
+    font-size: 25px;
+    text-align: center; }
+  .paypass-safety_additional {
+    font-size: 18px;
+    width: 45vh; }
   .section-iphone-x {
-    width: 1200px;
+    max-width: 1200px;
+    width: 100%;
     text-align: center;
     position: relative; }
   .section-iphone-8 {
-    width: 1200px;
+    max-width: 1200px;
+    width: 100%;
     text-align: center;
     position: relative; }
   .iphone_x_large_2x {
@@ -533,13 +572,16 @@ footer {
     height: 700px;
     align-items: center; }
   .ios-large-img {
-    width: 536px;
-    height: 338px; }
+    background-image: url(./assets/images/ios_medium_2x.jpg);
+    width: 390px;
+    height: 327px; }
   .airpods_accessories {
     display: flex;
     flex-direction: column;
-    width: 80%;
-    margin: 0 auto; }
+    width: 100%;
+    max-width: 1200px;
+    justify-content: center;
+    align-items: center; }
   .accessories-container {
     margin-top: 20px;
     background-position: center;
@@ -547,15 +589,47 @@ footer {
   .section-compare {
     width: 80%;
     text-align: center;
-    position: relative; } }
+    position: relative; }
+  .section-compare_2 {
+    width: 100%;
+    max-width: 1200px; }
+  .safety {
+    display: flex;
+    margin-top: 20px;
+    height: 577px; } }
 
 @media screen and (max-width: 768px) {
   .section-iphone-x {
-    width: 768px;
+    max-width: 768px;
+    width: 100%;
     text-align: center;
     position: relative; }
+  .safety_paypass {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%; }
+  .paypass {
+    display: flex; }
+  .paypass_img {
+    background-position: center;
+    background-size: cover;
+    width: 383px;
+    height: 235px; }
+  .safety_img {
+    background-position: center;
+    background-size: cover;
+    width: 378px;
+    height: 204px; }
+  .section-compare_2 {
+    width: 100%;
+    max-width: 768px;
+    height: 70vh; }
+  .comparing-info_2 > h2 {
+    font-size: 50px; }
   .section-iphone-8 {
-    width: 768px;
+    max-width: 768px;
+    width: 100%;
     text-align: center;
     position: relative; }
   .iphone_x_large_2x {
@@ -595,7 +669,8 @@ footer {
     text-align: center;
     justify-content: center; }
   .section-compare {
-    width: 600px; }
+    max-width: 328px;
+    width: 100%; }
   .wrapper-for-book {
     flex-direction: column;
     text-align: center;
@@ -604,24 +679,186 @@ footer {
     font-size: 31px; }
   .section-big-step {
     background-color: #FAFAFA;
-    width: 600px;
     display: flex;
     margin: 20px auto;
     flex-direction: column;
-    height: 700px;
-    align-items: center; }
+    height: 582px;
+    align-items: center;
+    max-width: 328px;
+    width: 100%; }
+  .header-for-big-step {
+    font-size: 25px;
+    margin-top: 20px; }
+  .sub-header-for-big-step {
+    font-size: 15px;
+    width: 330px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+  .header-for-acs {
+    font-size: 19px; }
+  .sub-header-for-acs {
+    font-size: 25px;
+    line-height: 25px;
+    color: #40d107; }
   .ios-large-img {
-    width: 373px;
-    height: 238px; }
+    background-image: url(./assets/images/ios_medium_2x.jpg);
+    width: 303px;
+    height: 257px; }
+  .wrapper-for-book_2 {
+    width: 308px; }
   .accessories-container {
     margin-top: 20px;
-    width: 80%; }
+    background-image: url(./assets/images/accessories_small_2x.jpg);
+    width: 100%;
+    height: 60%;
+    padding-top: 14px; }
   .airpods-container {
-    width: 80%; }
+    background-image: url(./assets/images/airpods_small.jpg);
+    width: 100%;
+    height: 60%;
+    padding-top: 14px; }
   .airpods_accessories {
     display: flex;
     flex-direction: column;
     width: 100%;
+    max-width: 328px;
+    justify-content: center; }
+  .safety {
+    display: flex;
+    margin-top: 20px;
+    height: 577px; } }
+
+@media screen and (max-width: 575px) {
+  .section-iphone-x {
+    max-width: 576px;
+    width: 100%;
+    text-align: center;
+    position: relative; }
+  .safety_paypass {
+    display: flex;
+    flex-direction: column; }
+  .paypass {
+    width: 100%;
+    max-width: 575px;
+    margin-left: 6px; }
+  .safety {
+    width: 100%;
+    max-width: 575px;
+    margin-left: 6px; }
+  .paypass_img {
+    background-position: center;
+    background-size: cover;
+    width: 365px;
+    height: 219px; }
+  .safety_img {
+    background-position: center;
+    background-size: cover;
+    width: 365px;
+    height: 197px; }
+  .section-compare_2 {
+    width: 100%;
+    max-width: 575px;
+    height: 70vh; }
+  .comparing-info_2 > h2 {
+    font-size: 40px; }
+  .section-iphone-8 {
+    max-width: 576px;
+    width: 100%;
+    text-align: center;
+    position: relative; }
+  .iphone_x_large_2x {
+    width: 335px;
+    height: 71px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 64px;
+    background-position: center;
+    background-size: cover; }
+  .iphone_8_large_2x {
+    background-image: url(./assets/images/iphone_8_medium_2x.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 325px;
+    height: 259px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 64px; }
+  .iphone-x_content {
+    max-width: 328px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto; }
+  .compare-img {
+    background-image: url(./assets/images/compare_large_2x.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 320px;
+    display: flex;
+    height: 245px;
+    margin: 0 auto;
+    margin-top: 30px; }
+  .comparing-info {
+    display: flex;
+    text-align: center;
+    justify-content: center; }
+  .section-compare {
+    max-width: 328px;
+    width: 100%; }
+  .wrapper-for-book {
+    flex-direction: column;
+    text-align: center;
+    padding-right: 24px; }
+  .sub-header-for-book {
+    font-size: 31px; }
+  .section-big-step {
+    background-color: #FAFAFA;
+    display: flex;
+    margin: 20px auto;
+    flex-direction: column;
+    height: 582px;
+    align-items: center;
+    max-width: 328px;
+    width: 100%; }
+  .header-for-big-step {
+    font-size: 25px;
+    margin-top: 20px; }
+  .sub-header-for-big-step {
+    font-size: 15px;
+    width: 330px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+  .header-for-acs {
+    font-size: 19px; }
+  .sub-header-for-acs {
+    font-size: 25px;
+    line-height: 25px;
+    color: #40d107; }
+  .ios-large-img {
+    width: 295px;
+    height: 252px; }
+  .wrapper-for-book_2 {
+    width: 308px; }
+  .accessories-container {
+    margin-top: 20px;
+    background-image: url(./assets/images/accessories_small_2x.jpg);
+    width: 100%;
+    height: 60%;
+    padding-top: 14px; }
+  .airpods-container {
+    background-image: url(./assets/images/airpods_small.jpg);
+    width: 100%;
+    height: 60%;
+    padding-top: 14px; }
+  .airpods_accessories {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 328px;
     justify-content: center; } }
 
 
