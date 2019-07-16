@@ -9,7 +9,8 @@ html {
 body {
     padding: 0;
     margin: 0;
-    background: lightcoral
+    background: lightcoral;
+    padding: 30px;
 }
 
 
